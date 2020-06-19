@@ -13,6 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
+//ToDo List:
+    //1. Create interface
+    // Manny variable Credit card. Create interface for many cards.
+    //2. realise delegate
+    // realise delegate for notification witg text;
+    //3. Realise event
+
 namespace Learning
 {
     /// <summary>

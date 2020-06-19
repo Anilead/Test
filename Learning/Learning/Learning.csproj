@@ -62,7 +62,14 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Classes\Account.cs" />
+    <Compile Include="Classes\CreditCard\FireBank.cs" />
+    <Compile Include="Classes\CreditCard\LolkaBank.cs" />
+    <Compile Include="Classes\CreditCard\NaggaBank.cs" />
+    <Compile Include="Classes\WalletAccount.cs" />
+    <Compile Include="Events\WalletEvent.cs" />
+    <Compile Include="Interfaces\ICards.cs" />
+    <Compile Include="Interfaces\IMoney.cs" />
+    <Compile Include="Interfaces\IOnlineWallet.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
