@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Wallet.Enumeration;
 
 namespace Wallet.Interfaces
 {
-    interface IWalletCards
+    internal interface IWalletCards
     {
         public string Name { get; } //Название карты
-        public Enum Type { get; } //Тип карты
-        public void DoRead(); //Считвыание карты
+        public TypeCard.Type Type { get; } //Тип карты
+        public void OnRead(); //Считвыание карты
 
     }
 }

@@ -6,7 +6,7 @@ namespace Wallet.Enumeration
 {
    public class TypeCard
     {
-        enum Type
+       public enum Type
         {
             BuisnessCard,
             CreditCard,
